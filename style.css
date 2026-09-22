@@ -27,7 +27,7 @@ body {
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #00ff00;
+    background-color: 'burlywood';
     border-radius: 50%;
 }
 
