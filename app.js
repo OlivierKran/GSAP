@@ -18,7 +18,8 @@ gsap.to(".circle", {
 gsap.from(".circle2", { 
     x: 540, 
     backgroundColor: 'purple',
-    duration: 20,
+    duration: 10,
+    ease: "power1.inOut",
 });
 
 gsap.fromTo(".circle3", { 
