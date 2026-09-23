@@ -23,6 +23,7 @@ body {
     display: flex;
     width: 100px;
     height: 100px;
+    color: #fff;
     background-color: #00ff00;
     border-radius: 50%;
     align-items: center;
@@ -44,6 +45,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: #00ff00;
+    color: #fff;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
