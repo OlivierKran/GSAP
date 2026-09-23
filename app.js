@@ -32,7 +32,7 @@ gsap.fromTo(".circle3", {
     duration: 5,
     repeat: 2,
     yoyo: true,
-    ease: "elastic.out",
+    ease: "elastic.out(1,0.3)",
 });
 
 gsap.set(".circle4", {
