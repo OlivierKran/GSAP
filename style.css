@@ -10,39 +10,51 @@ body {
 }
 
 .box {
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: #ff0000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
 }
+
 .circle {
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: #00ff00;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle2 {
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: 'burlywood';
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle3 {
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: #00ff00;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle4 {
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: 'burlywood';
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }

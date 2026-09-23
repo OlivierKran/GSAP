@@ -6,6 +6,7 @@ gsap.to(".box", {
     backgroundColor: "#004b73",
     repeat: 1,
     yoyo: true,
+    ease: "bounce.out"
 });
 
 gsap.to(".circle", { 
@@ -31,6 +32,7 @@ gsap.fromTo(".circle3", {
     duration: 5,
     repeat: 2,
     yoyo: true,
+    ease: "elastic.out",
 });
 
 gsap.set(".circle4", {
