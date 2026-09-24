@@ -9,7 +9,7 @@ body {
     background-color: 'almond';
 }
 
-.box {
+#box1{
     display: flex;
     width: 100px;
     height: 100px;
@@ -59,4 +59,42 @@ body {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+}
+
+.sectionGsap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.green {
+    background-color: #22c55e;
+}
+
+.purple {
+    background-color: #8b5cf6;
+}
+
+.orange {
+    background-color: #f97316;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.braces {
+    display: block;
 }
