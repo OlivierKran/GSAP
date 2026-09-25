@@ -4,12 +4,12 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 30px;
     background-color: 'almond';
 }
 
-#box1{
+#box1 {
     display: flex;
     width: 100px;
     height: 100px;
@@ -98,3 +98,15 @@ body {
 .braces {
     display: block;
 }
+
+.link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0000ff;
+
+}
+

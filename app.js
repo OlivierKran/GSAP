@@ -1,6 +1,6 @@
 gsap.to("#box1", {
     x: 500,
-    y: -200,
+    y: 200,
     duration: 5,
     rotate: 360,
     backgroundColor: "#004b73",
@@ -68,10 +68,12 @@ document.querySelectorAll(".box").forEach((box, index) => {
             y: -100,
             stagger: {
                 from: index, // stagger in from the clicked element's index
-                amount: 1 // spread the entire stagger out over 1 second
+                amount: 1, // spread the entire stagger out over 1 second
             },
             ease: "back.in",
-            overwrite: "auto"
+            overwrite: "auto",
         });
     });
 });
+
+
