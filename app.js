@@ -20,6 +20,7 @@ gsap.from(".circle2", {
     backgroundColor: 'purple',
     duration: 10,
     ease: "power1.inOut",
+    delay: 1,
 });
 
 gsap.fromTo(".circle3", {
@@ -27,6 +28,7 @@ gsap.fromTo(".circle3", {
     x: 800,
     backgroundColor: 'orange',
     duration: 20,
+    delay: 2,
 }, {
     y: -540,
     backgroundColor: 'red',
@@ -75,5 +77,14 @@ document.querySelectorAll(".box").forEach((box, index) => {
         });
     });
 });
+
+// create a timeline
+let tl = gsap.timeline()
+
+// add the tweens to the timeline - Note we're using tl.to not gsap.to
+tl.to(".tlgreen", { x: 800, duration: 2 });
+tl.to(".tlpurple", { x: 700, duration: 1 });
+tl.to(".tlorange", { x: 600, duration: 1 });
+tl.to(".tlblack", { x: 500, duration: 1 });
 
 

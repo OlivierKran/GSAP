@@ -110,3 +110,26 @@ body {
 
 }
 
+.timelineDemo .tlBox {
+    width: 50px;
+    height: 50px;
+    position: relative; 
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+
+.timelineDemo .tlgreen {
+    background-color: #0ae482;
+}
+
+.timelineDemo .tlorange {
+    background-color: #ff6f09;
+}
+
+.timelineDemo .tlpurple {
+    background-color: #bf95ff;
+}
+
+.tlblack {
+    background-color: #000000;
+}
