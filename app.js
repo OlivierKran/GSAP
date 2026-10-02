@@ -85,6 +85,6 @@ const tl = gsap.timeline()
 tl.to(".tlgreen", { x: 800, y: -100, duration: 2 }, 1);
 tl.to(".tlpurple", { x: 700, y: 100, duration: 1 }, "<"); // "<" means start this tween at the same time as the previous one
 tl.to(".tlorange", { x: 600, y:-200, duration: 3 }, "+=1"); //  1 second after the end of the timeline (usually the previously inserted animation)
-tl.to(".tlblack", { x: 400, y:100, duration: 4 });
+tl.to(".tlblack", { x: 300, y:100, duration: 4 });
 
 
