@@ -82,9 +82,9 @@ document.querySelectorAll(".box").forEach((box, index) => {
 let tl = gsap.timeline()
 
 // add the tweens to the timeline - Note we're using tl.to not gsap.to
-tl.to(".tlgreen", { x: 800, duration: 2 });
-tl.to(".tlpurple", { x: 700, duration: 1 });
-tl.to(".tlorange", { x: 600, duration: 1 });
-tl.to(".tlblack", { x: 500, duration: 1 });
+tl.to(".tlgreen", { x: 800, duration: 2 }, 1);
+tl.to(".tlpurple", { x: 700, duration: 1 }, "<"); // "<" means start this tween at the same time as the previous one
+tl.to(".tlorange", { x: 600, duration: 3 }, "+=1"); //  1 second after the end of the timeline (usually the previously inserted animation)
+tl.to(".tlblack", { x: 500, duration: 4 });
 
 
